@@ -1,0 +1,16 @@
+body {background-color: snow;}
+#leading_image {
+    width: 200px;
+    height: 200px;
+    border: 2px solid lightgrey;
+    background-image: url("images/greg-rosenke-7kpC3MZ5BOg-unsplash.jpg");
+    background-position: center center;
+    background-size:cover;
+    border-radius: 0 50% 0 50%;
+    box-shadow: 5px 6px 4px slategrey;
+    margin: 10px 10px 40px 80px;
+    float:left
+}
+#spacer {
+    height: 25px;
+}

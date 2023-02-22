@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 201</title>
+    <style>
+        #parent > img {width: 50px; height: 40px; background-color: burlywood;}
+        #parent img ~ p {color: blue;} 
+
+         
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <img src="" alt="">
+        <p>This is blue</p>
+        <p>This is not blue</p>
+        <p>This is also not blue</p>
+        <p>Really, we're all blue because you changed the adjacent sibiling
+        selector to the general sibling selector</p>
+    </div>
+</body>
+</html>
